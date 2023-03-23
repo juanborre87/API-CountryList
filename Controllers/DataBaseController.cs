@@ -51,7 +51,7 @@ namespace CountryList.Controllers
                 {
                     if (filtered.CountryName == country)
                     {
-                        countryWeb.Id = filtered.Id;
+                        countryWeb.Id = filtered.IdCountry;
                         countryWeb.Name = filtered.CountryName;
                         countryWeb.Population = filtered.Population;
                         countryWeb.IsoCode = filtered.IsoCode;
